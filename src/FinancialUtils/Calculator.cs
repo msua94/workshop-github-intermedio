@@ -9,6 +9,8 @@ public static class Calculator
     /// Suma dos valores decimales.
     /// </summary>
     public static decimal Add(decimal a, decimal b) => a + b;
+    
+    public static int Add(decimal a, decimal b) => a + b;
 
     /// <summary>
     /// Resta b de a.
